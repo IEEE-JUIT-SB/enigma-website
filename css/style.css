@@ -100,7 +100,7 @@ body {
 a{
 	text-decoration:none;
 	cursor:pointer;
-	color:#3786ff;
+	color:#800080;
 }
 
 a:hover,
@@ -3197,7 +3197,7 @@ img{
 .testimonial-block .inner-box .text{
 	position:relative;
 	color:#ffffff;
-	font-size:30px;
+	font-size:20px;
 	line-height:1.5em;
 	margin-top:35px;
 }
@@ -3361,11 +3361,11 @@ img{
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
-	opacity:0.2;
+	opacity:0.75;
 }
 
 .sponsors-section .sponsors-outer .image-box img:hover{
-	opacity:1;
+	opacity:3;
 }
 
 /*** 
@@ -3374,7 +3374,7 @@ img{
 	Main Footer
 ====================================================================
 
-
+***/
 
 .main-footer{
 	position:relative;
@@ -3383,12 +3383,12 @@ img{
 
 .main-footer:before{
 	position: absolute;
-    content: '';
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    height: 213px;
-    background: url(../images/background/6.png) no-repeat;
+	content: '';
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	height: 213px;
+	background: url(../images/background/6.png) no-repeat;
 }
 
 .main-footer .widgets-section{
@@ -3463,7 +3463,6 @@ img{
 	margin-bottom:25px;
 }
 
-
 .newsletter-form{
 	position:relative;
 }
@@ -3473,32 +3472,33 @@ img{
 }
 
 .newsletter-form .form-group{
-    position: relative;
+	position: relative;
 }
 
 .newsletter-form .form-group input[type="text"],
 .newsletter-form .form-group input[type="tel"],
 .newsletter-form .form-group input[type="email"],
 .newsletter-form .form-group textarea {
-    position: relative;
-    width: 100%;
-    line-height: 28px;
-    padding: 10px 25px;
-    height: 80px;
+	position: relative;
+	width: 100%;
+	line-height: 28px;
+	padding: 10px 25px;
+	height: 80px;
 	display:inline-block;
-    font-size: 16px;
-    background: none;
+	font-size: 16px;
+	background: none;
 	font-weight:400;
 	color:#ffffff;
 	border:1px solid rgba(0,0,0,0);
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
 	background-color:#1b1a1a;
 }
 
+.newsletter-form .form
 .newsletter-form .form-group input[type="text"]:focus,
 .newsletter-form .form-group input[type="email"]:focus,
 .newsletter-form .form-group input[type="tel"]:focus{
