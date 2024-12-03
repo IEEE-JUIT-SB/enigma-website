@@ -100,7 +100,7 @@ body {
 a{
 	text-decoration:none;
 	cursor:pointer;
-	color:#800080;
+	color:#ffffff;
 }
 
 a:hover,
@@ -4610,12 +4610,12 @@ img{
 .blog-detail .image-box .image{
 	position: relative;
 	margin-bottom: 0;
-	border: 1px solid #302f2f;
+	border: 0px solid #302f2f;
 }
 
 .blog-detail .image-box .image img{
 	display: block;
-	width: 100%;
+	width: 30%;
 	height: auto;
 }
 
